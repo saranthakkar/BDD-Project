@@ -42,8 +42,8 @@ class SortingAscending {
         numbers.add(26);// 1 index
         numbers.add(13); // 2 index
 
-        //Collections.sort(numbers);//  Sort numbers in Ascending orders
-        Collections.sort(numbers,Collections.reverseOrder()); // sort numbers in Descending order
+        Collections.sort(numbers);//  Sort numbers in Ascending orders
+        //Collections.sort(numbers,Collections.reverseOrder()); // sort numbers in Descending order
         System.out.println(numbers);  // to print in one box
 
         for(int number : numbers){

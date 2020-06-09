@@ -8,7 +8,7 @@ public abstract class Bike {
 class Splendor extends Bike {
     public void run(){
 
-        System.out.println("Running Safely");
+        System.out.println("Running Safely");       //implementing abstract method
     }
     public static void main(String[] args){
         Splendor obj = new Splendor();
@@ -19,7 +19,8 @@ class Splendor extends Bike {
 abstract class Parent{
     public abstract void property();//abstract method
 
-public void balance(){
+public void balance(){              //non-abstract method
+
     System.out.println("Parent balance");
 }//user define method finishes
 }//class finishes
